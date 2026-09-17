@@ -2,12 +2,12 @@
 
 # André Alves
 
-### Control & Automation Engineering — UFPE
+### Engenharia de Controle e Automação — UFPE
 
-**Automation + Software + Data + Decision**
+**Automação + Software + Dados + Decisão**
 
-Industrial control (PLC/SCADA), full-stack software, and applied AI — built to solve
-real problems on real machines, not just on a whiteboard.
+Controle industrial (CLP/SCADA), software full-stack e IA aplicada — construído para
+resolver problemas reais em máquinas reais, não só no papel.
 
 [![Email](https://img.shields.io/badge/Email-andre.alves2aandrade%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:andre.alves2aandrade@gmail.com)
 
@@ -15,94 +15,97 @@ real problems on real machines, not just on a whiteboard.
 
 ---
 
-## About
+## Sobre
 
-I work across the full stack of an automated system: the PLC logic and field wiring on
-the shop floor, the SCADA/HMI and backend services that talk to it, and the software —
-sometimes AI-assisted — that turns that data into something a person can act on.
+Trabalho em toda a cadeia de um sistema automatizado: a lógica de CLP e o cabeamento
+de campo no chão de fábrica, o SCADA/HMI e os serviços de back-end que conversam com
+ele, e o software — às vezes com apoio de IA — que transforma esses dados em algo que
+uma pessoa possa usar para agir.
 
-Most of the projects below came out of real industrial and business problems: a machine
-that needed a control system, a client that needed their process monitored, a team that
-needed a tool that didn't exist yet. A few are personal projects built solo, end to end.
+A maioria dos projetos abaixo nasceu de problemas reais, industriais ou de negócio: uma
+máquina que precisava de um sistema de controle, um cliente que precisava monitorar seu
+processo, uma equipe que precisava de uma ferramenta que ainda não existia. Alguns são
+projetos pessoais, feitos sozinho, do início ao fim.
 
-Every repository here has been reviewed and sanitized for public sharing — real client
-data, credentials, and third-party personal information are removed or replaced with
-placeholders before publication. Where a repository documents work done as part of a
-team (frequently the case in Junior Enterprise / academic team projects, where Git
-history doesn't always reflect who did what), that is stated plainly in the repo's own
-README rather than glossed over.
+Todo repositório aqui foi revisado e higienizado para publicação — dados reais de
+clientes, credenciais e informações pessoais de terceiros foram removidos ou
+substituídos por placeholders antes da publicação. Quando um repositório documenta um
+trabalho feito em equipe (frequentemente o caso em projetos de Empresa Júnior/acadêmicos,
+onde o histórico do Git nem sempre reflete quem fez o quê), isso é declarado com clareza
+no próprio README do repositório, sem disfarces.
 
-## Focus areas
+## Áreas de foco
 
-- 🏭 **Industrial automation** — PLC programming (Rockwell Studio 5000 / Structured Text,
-  Siemens S7), SCADA/HMI (Elipse E3, FactoryTalk View), EtherNet/IP integration
-- 🪞 **Digital twins & simulation** — real-time 3D synchronization with physical PLCs,
-  Python-based process simulation frameworks
-- 🔌 **Embedded & IoT** — ESP32/MicroPython, BLE, RFID/NFC, GPIO/I2C/serial hardware
-  integration
-- 🌐 **Backend & full-stack** — REST APIs (Node.js/Express), React frontends, Electron
-  desktop apps, Android (Kotlin + Compose)
-- 🤖 **Applied AI** — multi-provider LLM orchestration, AI-assisted workflow automation
-- 📊 **Data & reporting** — automated report/document generation, anomaly detection,
-  decision-support dashboards
+- 🏭 **Automação industrial** — programação de CLP (Rockwell Studio 5000 / Structured
+  Text, Siemens S7), SCADA/HMI (Elipse E3, FactoryTalk View), integração EtherNet/IP
+- 🪞 **Gêmeos digitais e simulação** — sincronização 3D em tempo real com CLPs físicos,
+  frameworks de simulação de processos industriais em Python
+- 🔌 **Embarcados e IoT** — ESP32/MicroPython, BLE, RFID/NFC, integração de hardware via
+  GPIO/I2C/serial
+- 🌐 **Back-end e full-stack** — APIs REST (Node.js/Express), frontends React, apps
+  desktop com Electron, Android (Kotlin + Compose)
+- 🤖 **IA aplicada** — orquestração de múltiplos provedores de LLM, automação de fluxos
+  de trabalho com apoio de IA
+- 📊 **Dados e relatórios** — geração automatizada de relatórios/documentos, detecção de
+  anomalias, dashboards de apoio à decisão
 
-## Featured projects
+## Projetos em destaque
 
 | | |
 |---|---|
-| **[ascendos-personal-assistant](https://github.com/2A-alves/ascendos-personal-assistant)** | Android personal assistant (Kotlin + Jetpack Compose) with a multi-provider LLM backend (Gemini/Groq/Cerebras/Mistral/OpenRouter). Solo project, full multi-module architecture. |
-| **[factory-simulation-library](https://github.com/2A-alves/factory-simulation-library)** | Python framework for simulating industrial processes, with a physical three-phase-separator model, 134 automated tests, and real PLC integration. Solo project. |
-| **[industrial-digital-twin](https://github.com/2A-alves/industrial-digital-twin)** | Unity 3D digital twin synced in real time with a physical PLC over EtherNet/IP (`libplctag`). |
-| **[rockwell-plc-unwinder-control](https://github.com/2A-alves/rockwell-plc-unwinder-control)** | Complete Rockwell Studio 5000 + FactoryTalk View project for a real fiber-unwinding machine — full controller logic, HMI, and recipe system, published in full with the original client's authorization. |
-| **[warehouse-rfid-locker-system](https://github.com/2A-alves/warehouse-rfid-locker-system)** | UHF RFID / NFC smart-locker system: embedded hardware integration, REST API, React frontend. |
+| **[ascendos-personal-assistant](https://github.com/2A-alves/ascendos-personal-assistant)** | Assistente pessoal Android (Kotlin + Jetpack Compose) com back-end multi-provedor de LLM (Gemini/Groq/Cerebras/Mistral/OpenRouter). Projeto solo, arquitetura multi-módulo completa. |
+| **[factory-simulation-library](https://github.com/2A-alves/factory-simulation-library)** | Framework Python para simulação de processos industriais, com modelo físico de separador trifásico, 134 testes automatizados e integração real com CLP. Projeto solo. |
+| **[industrial-digital-twin](https://github.com/2A-alves/industrial-digital-twin)** | Gêmeo digital em Unity 3D sincronizado em tempo real com um CLP físico via EtherNet/IP (`libplctag`). |
+| **[rockwell-plc-unwinder-control](https://github.com/2A-alves/rockwell-plc-unwinder-control)** | Projeto completo em Rockwell Studio 5000 + FactoryTalk View para uma desbobinadeira de fibra real — lógica de controle, HMI e sistema de receitas completos, publicado na íntegra com autorização do cliente original. |
+| **[warehouse-rfid-locker-system](https://github.com/2A-alves/warehouse-rfid-locker-system)** | Sistema de armários inteligentes com RFID UHF / NFC: integração de hardware embarcado, API REST, frontend React. |
 
-## All projects
+## Todos os projetos
 
-### Industrial automation, PLC & SCADA
+### Automação industrial, CLP e SCADA
 
-| Project | Description |
+| Projeto | Descrição |
 |---|---|
-| [industrial-digital-twin](https://github.com/2A-alves/industrial-digital-twin) | Unity 3D digital twin synced with a physical PLC over EtherNet/IP |
-| [factory-simulation-library](https://github.com/2A-alves/factory-simulation-library) | Industrial process simulation framework in Python, with real PLC integration |
-| [rockwell-plc-unwinder-control](https://github.com/2A-alves/rockwell-plc-unwinder-control) | Rockwell Studio 5000 + FactoryTalk View control project for a fiber-unwinding machine |
-| [s7-ethernet-plc-driver](https://github.com/2A-alves/s7-ethernet-plc-driver) | C#/.NET driver for Siemens S7 PLCs over EtherNet/IP |
-| [coil-winding-recipe-manager](https://github.com/2A-alves/coil-winding-recipe-manager) | Desktop recipe editor/sender for a coil-winding machine's Rockwell PLC |
-| [hipervisorio-case-study](https://github.com/2A-alves/hipervisorio-case-study) | SCADA (Elipse E3) case study: EV-charging microgrid supervisory system |
+| [industrial-digital-twin](https://github.com/2A-alves/industrial-digital-twin) | Gêmeo digital em Unity 3D sincronizado com um CLP físico via EtherNet/IP |
+| [factory-simulation-library](https://github.com/2A-alves/factory-simulation-library) | Framework de simulação de processos industriais em Python, com integração real de CLP |
+| [rockwell-plc-unwinder-control](https://github.com/2A-alves/rockwell-plc-unwinder-control) | Projeto de controle em Rockwell Studio 5000 + FactoryTalk View para uma desbobinadeira de fibra |
+| [s7-ethernet-plc-driver](https://github.com/2A-alves/s7-ethernet-plc-driver) | Driver C#/.NET para CLPs Siemens S7 via EtherNet/IP |
+| [coil-winding-recipe-manager](https://github.com/2A-alves/coil-winding-recipe-manager) | Editor/enviador de receitas para o CLP Rockwell de uma bobinadeira |
+| [hipervisorio-case-study](https://github.com/2A-alves/hipervisorio-case-study) | Estudo de caso de SCADA (Elipse E3): sistema supervisório de microrrede de recarga de veículos elétricos |
 
-### Embedded, IoT & hardware integration
+### Embarcados, IoT e integração de hardware
 
-| Project | Description |
+| Projeto | Descrição |
 |---|---|
-| [warehouse-rfid-locker-system](https://github.com/2A-alves/warehouse-rfid-locker-system) | UHF RFID / NFC smart-locker system: hardware, REST API, React frontend |
-| [esp32-ble-indoor-positioning](https://github.com/2A-alves/esp32-ble-indoor-positioning) | Indoor positioning via ESP32 BLE-RSSI anchors + Python trilateration service |
-| [smart-coffee-station](https://github.com/2A-alves/smart-coffee-station) | Self-service coffee machine automation: ESP32 firmware, Node.js backend, React frontend |
-| [smart-home-automation](https://github.com/2A-alves/smart-home-automation) | Home automation: Node.js backend + ESP32 device controller |
+| [warehouse-rfid-locker-system](https://github.com/2A-alves/warehouse-rfid-locker-system) | Sistema de armários inteligentes com RFID UHF / NFC: hardware, API REST, frontend React |
+| [esp32-ble-indoor-positioning](https://github.com/2A-alves/esp32-ble-indoor-positioning) | Posicionamento indoor via âncoras BLE-RSSI em ESP32 + serviço de trilateração em Python |
+| [smart-coffee-station](https://github.com/2A-alves/smart-coffee-station) | Automação de máquina de café self-service: firmware ESP32, back-end Node.js, frontend React |
+| [smart-home-automation](https://github.com/2A-alves/smart-home-automation) | Automação residencial: back-end Node.js + controlador de dispositivos ESP32 |
 
-### Applied AI
+### IA aplicada
 
-| Project | Description |
+| Projeto | Descrição |
 |---|---|
-| [ascendos-personal-assistant](https://github.com/2A-alves/ascendos-personal-assistant) | Android assistant (Kotlin + Compose) with a multi-provider LLM backend |
-| [jarvis-media-pipeline](https://github.com/2A-alves/jarvis-media-pipeline) | AI-assisted video editing automation: indexing, cut-plan generation, Premiere Pro export |
+| [ascendos-personal-assistant](https://github.com/2A-alves/ascendos-personal-assistant) | Assistente Android (Kotlin + Compose) com back-end multi-provedor de LLM |
+| [jarvis-media-pipeline](https://github.com/2A-alves/jarvis-media-pipeline) | Automação de edição de vídeo com apoio de IA: indexação, geração de plano de corte, exportação para o Premiere Pro |
 
-### Business apps, ERP & reporting
+### Aplicações de negócio, ERP e relatórios
 
-| Project | Description |
+| Projeto | Descrição |
 |---|---|
-| [avante-erp-platform](https://github.com/2A-alves/avante-erp-platform) | Case study: production ERP with access control, RTSP camera streaming, AI-assisted workflows |
-| [trade-erp-desktop](https://github.com/2A-alves/trade-erp-desktop) | Electron + React desktop ERP: customers, suppliers, contracts, invoicing |
-| [pos-consultation-mobile-app](https://github.com/2A-alves/pos-consultation-mobile-app) | React Native / Expo app: QR-code product scanning + quote/proforma generation |
-| [asset-tracking-system](https://github.com/2A-alves/asset-tracking-system) | Full-stack asset checkout/tracking demo |
-| [power-monitoring-report-generator](https://github.com/2A-alves/power-monitoring-report-generator) | Python/pandas pipeline for electrical power-monitoring: anomaly detection, charts, LaTeX reports |
-| [proforma-pdf-generator](https://github.com/2A-alves/proforma-pdf-generator) | Node.js library for generating proforma/order PDF documents |
+| [avante-erp-platform](https://github.com/2A-alves/avante-erp-platform) | Estudo de caso: ERP em produção com controle de acesso, streaming de câmeras RTSP, fluxos com apoio de IA |
+| [trade-erp-desktop](https://github.com/2A-alves/trade-erp-desktop) | ERP desktop em Electron + React: clientes, fornecedores, contratos, faturamento |
+| [pos-consultation-mobile-app](https://github.com/2A-alves/pos-consultation-mobile-app) | App React Native / Expo: consulta de produto por QR code + geração de orçamento/proforma |
+| [asset-tracking-system](https://github.com/2A-alves/asset-tracking-system) | Demo full-stack de checkout/rastreamento de ativos |
+| [power-monitoring-report-generator](https://github.com/2A-alves/power-monitoring-report-generator) | Pipeline Python/pandas para monitoramento de energia elétrica: detecção de anomalias, gráficos, relatórios em LaTeX |
+| [proforma-pdf-generator](https://github.com/2A-alves/proforma-pdf-generator) | Biblioteca Node.js para geração de documentos PDF de proforma/pedido |
 
-### Utilities
+### Utilitários
 
-| Project | Description |
+| Projeto | Descrição |
 |---|---|
-| [engineering-labs](https://github.com/2A-alves/engineering-labs) | Collection of smaller engineering utilities: team diary, dashboards, QR label generators |
+| [engineering-labs](https://github.com/2A-alves/engineering-labs) | Coleção de pequenos utilitários de engenharia: diário de equipe, dashboards, geradores de etiquetas QR |
 
-## Tech stack
+## Tecnologias
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
@@ -119,6 +122,6 @@ README rather than glossed over.
 ![Siemens S7](https://img.shields.io/badge/Siemens-S7-009999?style=flat-square)
 ![Elipse E3](https://img.shields.io/badge/Elipse-E3-005A9C?style=flat-square)
 
-## Contact
+## Contato
 
 📧 [andre.alves2aandrade@gmail.com](mailto:andre.alves2aandrade@gmail.com)

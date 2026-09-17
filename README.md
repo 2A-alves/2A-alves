@@ -91,6 +91,7 @@ README rather than glossed over.
 |---|---|
 | [avante-erp-platform](https://github.com/2A-alves/avante-erp-platform) | Case study: production ERP with access control, RTSP camera streaming, AI-assisted workflows |
 | [trade-erp-desktop](https://github.com/2A-alves/trade-erp-desktop) | Electron + React desktop ERP: customers, suppliers, contracts, invoicing |
+| [pos-consultation-mobile-app](https://github.com/2A-alves/pos-consultation-mobile-app) | React Native / Expo app: QR-code product scanning + quote/proforma generation |
 | [asset-tracking-system](https://github.com/2A-alves/asset-tracking-system) | Full-stack asset checkout/tracking demo |
 | [power-monitoring-report-generator](https://github.com/2A-alves/power-monitoring-report-generator) | Python/pandas pipeline for electrical power-monitoring: anomaly detection, charts, LaTeX reports |
 | [proforma-pdf-generator](https://github.com/2A-alves/proforma-pdf-generator) | Node.js library for generating proforma/order PDF documents |

@@ -9,7 +9,7 @@
 Industrial control (PLC/SCADA), full-stack software, and applied AI — built to solve
 real problems on real machines, not just on a whiteboard.
 
-[![Email](https://img.shields.io/badge/Email-dimensoesul%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:dimensoesul@gmail.com)
+[![Email](https://img.shields.io/badge/Email-andre.alves2aandrade%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:andre.alves2aandrade@gmail.com)
 
 </div>
 
@@ -121,4 +121,4 @@ README rather than glossed over.
 
 ## Contact
 
-📧 [dimensoesul@gmail.com](mailto:dimensoesul@gmail.com)
+📧 [andre.alves2aandrade@gmail.com](mailto:andre.alves2aandrade@gmail.com)
